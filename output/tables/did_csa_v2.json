@@ -1,0 +1,44 @@
+[
+  {
+    "event": "Indonesia KPK 2003",
+    "country": "IDN",
+    "year": 2003,
+    "method": "Callaway-SantAnna",
+    "raw": "  SimpleAggregation                                                       \n                    bootstrap simult. conf. band                          \n                ATT std_error              lower   upper zero_not_in_cband\n0         -0.079776  0.087105          -0.229952  0.0704                  "
+  },
+  {
+    "event": "Nigeria EFCC 2003",
+    "country": "NGA",
+    "year": 2003,
+    "method": "Callaway-SantAnna",
+    "raw": "  SimpleAggregation                                                        \n                    bootstrap simult. conf. band                           \n                ATT std_error              lower    upper zero_not_in_cband\n0         -0.170223  0.077405          -0.316856 -0.02359                 *"
+  },
+  {
+    "event": "Brazil Lava Jato 2014",
+    "country": "BRA",
+    "year": 2014,
+    "method": "Callaway-SantAnna",
+    "raw": "  SimpleAggregation                                                         \n                    bootstrap simult. conf. band                            \n                ATT std_error              lower     upper zero_not_in_cband\n0          0.474704  0.056134           0.357397  0.592011                 *"
+  },
+  {
+    "event": "India Lokpal 2014",
+    "country": "IND",
+    "year": 2014,
+    "method": "Callaway-SantAnna",
+    "raw": "  SimpleAggregation                                                         \n                    bootstrap simult. conf. band                            \n                ATT std_error              lower     upper zero_not_in_cband\n0         -0.037947  0.072211          -0.166657  0.090762                  "
+  },
+  {
+    "event": "Rwanda institutional rebuild (2003 proxy)",
+    "country": "RWA",
+    "year": 2003,
+    "method": "Callaway-SantAnna",
+    "raw": "  SimpleAggregation                                                         \n                    bootstrap simult. conf. band                            \n                ATT std_error              lower     upper zero_not_in_cband\n0           0.17983  0.072683           0.041083  0.318578                 *"
+  },
+  {
+    "event": "South Korea consolidation (2003 proxy)",
+    "country": "KOR",
+    "year": 2003,
+    "method": "Callaway-SantAnna",
+    "raw": "  SimpleAggregation                                                         \n                    bootstrap simult. conf. band                            \n                ATT std_error              lower     upper zero_not_in_cband\n0          0.108273  0.079066          -0.031649  0.248195                  "
+  }
+]

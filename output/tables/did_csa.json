@@ -1,0 +1,74 @@
+[
+  {
+    "event": "Indonesia KPK 2003",
+    "country": "IDN",
+    "year": 2003,
+    "method": "Callaway-SantAnna",
+    "coef_att": -0.07977617375763554,
+    "se_att": 0.0798911542153607,
+    "ci_lower": -0.21906388487170989,
+    "ci_upper": 0.0595115373564388,
+    "sig": "",
+    "pct_change": -7.667701282533446
+  },
+  {
+    "event": "Nigeria EFCC 2003",
+    "country": "NGA",
+    "year": 2003,
+    "method": "Callaway-SantAnna",
+    "coef_att": -0.1702227718875074,
+    "se_att": 0.08404658078234947,
+    "ci_lower": -0.3158142936704105,
+    "ci_upper": -0.02463125010460429,
+    "sig": "*",
+    "pct_change": -15.652310727437824
+  },
+  {
+    "event": "Brazil Lava Jato 2014",
+    "country": "BRA",
+    "year": 2014,
+    "method": "Callaway-SantAnna",
+    "coef_att": 0.47470410584868217,
+    "se_att": 0.05736173949536542,
+    "ci_lower": 0.37054456205379654,
+    "ci_upper": 0.5788636496435677,
+    "sig": "*",
+    "pct_change": 60.75384658760823
+  },
+  {
+    "event": "India Lokpal 2014",
+    "country": "IND",
+    "year": 2014,
+    "method": "Callaway-SantAnna",
+    "coef_att": -0.0379470835970243,
+    "se_att": 0.07202628919316074,
+    "ci_lower": -0.16430873914221894,
+    "ci_upper": 0.08841457194817036,
+    "sig": "",
+    "pct_change": -3.723611445497832
+  },
+  {
+    "event": "Rwanda institutional rebuild (2003 proxy)",
+    "country": "RWA",
+    "year": 2003,
+    "method": "Callaway-SantAnna",
+    "coef_att": 0.17983032857311826,
+    "se_att": 0.0808652384075813,
+    "ci_lower": 0.03922570987918764,
+    "ci_upper": 0.3204349472670489,
+    "sig": "*",
+    "pct_change": 19.701424677552914
+  },
+  {
+    "event": "South Korea consolidation (2003 proxy)",
+    "country": "KOR",
+    "year": 2003,
+    "method": "Callaway-SantAnna",
+    "coef_att": 0.10827304236980168,
+    "se_att": 0.07943488108107767,
+    "ci_lower": -0.040363538381331776,
+    "ci_upper": 0.2569096231209351,
+    "sig": "",
+    "pct_change": 11.435196915403933
+  }
+]

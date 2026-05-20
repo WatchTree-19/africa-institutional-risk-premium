@@ -1,0 +1,21 @@
+{
+  "method": "Pooled 2SLS (commodity-price IV for WGI)",
+  "n_obs": 246,
+  "n_countries": 12,
+  "second_stage_coef_wgi": -1.702451556031292,
+  "second_stage_se": 3.637554185622174,
+  "second_stage_p": 0.6397696098801222,
+  "first_stage_f": 0.6074346915859099,
+  "first_stage_coef_cp": -0.15021348449092672,
+  "first_stage_se": 0.19273435055251453,
+  "first_stage_p": 0.435755332231738,
+  "first_stage_r2": 0.554731842046807,
+  "reduced_form_coef": 0.2557311804084413,
+  "reduced_form_se": 0.26833604265021493,
+  "reduced_form_p": 0.3405769823701251,
+  "ar_ci_lower": -2.0,
+  "ar_ci_upper": 4.0,
+  "ols_coef": 0.5309325562594682,
+  "ols_se": 0.21718241028852814,
+  "ols_p": 0.01449972581590335
+}

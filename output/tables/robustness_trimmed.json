@@ -1,0 +1,50 @@
+{
+  "pooled_full": {
+    "label": "Full sample (15 countries)",
+    "n": 246,
+    "coef": 0.5309325562594682,
+    "se": 0.21718241028852814,
+    "p": 0.01449972581590335,
+    "r2": 0.37485539999715733
+  },
+  "pooled_trim_no_bwa_mus": {
+    "label": "Minus Botswana, Mauritius",
+    "n": 200,
+    "coef": 0.5644721894380142,
+    "se": 0.22933502783937976,
+    "p": 0.01384179238265521,
+    "r2": 0.40530117438437274
+  },
+  "pooled_high_corr_africa_only": {
+    "label": "High-corruption African block only (NGA, SEN, GHA, ZMB, ZWE + Asia + LatAm)",
+    "n": 187,
+    "coef": 0.6465435999922785,
+    "se": 0.22279378472330305,
+    "p": 0.0037080959622088874,
+    "r2": 0.4082372973527397
+  },
+  "twfe_full": {
+    "label": "Full sample",
+    "n": 246,
+    "coef": 0.11794999297870296,
+    "se": 0.21105139967292055,
+    "p": 0.5768584372717847,
+    "r2_within": 0.09884376015061913
+  },
+  "twfe_trim_no_bwa_mus": {
+    "label": "Minus Botswana, Mauritius",
+    "n": 200,
+    "coef": 0.17147031398356052,
+    "se": 0.2507586111788765,
+    "p": 0.49507443333812295,
+    "r2_within": 0.12456608910904399
+  },
+  "twfe_high_corr_africa_only": {
+    "label": "High-corruption African block only",
+    "n": 187,
+    "coef": 0.20671320186111092,
+    "se": 0.24939712624505608,
+    "p": 0.40850535459418946,
+    "r2_within": 0.12422548263777566
+  }
+}

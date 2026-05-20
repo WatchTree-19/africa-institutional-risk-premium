@@ -1,0 +1,116 @@
+{
+  "m1_headline": {
+    "label": "Headline: log spread on inverted WGI + full macro controls",
+    "dep": "log_spread",
+    "regressor": "wgi_cc_inv",
+    "controls": [
+      "gdp_growth",
+      "inflation",
+      "current_account_pct_gdp",
+      "reserves_months_imports",
+      "trade_openness"
+    ],
+    "n_obs": 246,
+    "n_entities": 12,
+    "coef": 0.11794999297870296,
+    "se": 0.21105139967292055,
+    "t": 0.5588685654845094,
+    "p": 0.5768584372717847,
+    "r2_within": 0.09884376015061913,
+    "time_effects": true
+  },
+  "m2_log_lending": {
+    "label": "Robustness: log lending rate on inverted WGI + full macro controls",
+    "dep": "log_lending",
+    "regressor": "wgi_cc_inv",
+    "controls": [
+      "gdp_growth",
+      "inflation",
+      "current_account_pct_gdp",
+      "reserves_months_imports",
+      "trade_openness"
+    ],
+    "n_obs": 247,
+    "n_entities": 12,
+    "coef": 0.021545678779062497,
+    "se": 0.15088431227489274,
+    "t": 0.14279601672444853,
+    "p": 0.8865901813239618,
+    "r2_within": 0.06397803923559797,
+    "time_effects": true
+  },
+  "m3_cpi": {
+    "label": "Robustness: log lending on inverted CPI (2012+) + full controls",
+    "dep": "log_lending",
+    "regressor": "cpi_inverted",
+    "controls": [
+      "gdp_growth",
+      "inflation",
+      "current_account_pct_gdp",
+      "reserves_months_imports",
+      "trade_openness"
+    ],
+    "n_obs": 132,
+    "n_entities": 12,
+    "coef": -0.013702602166928198,
+    "se": 0.012186566667998807,
+    "t": -1.124402183176859,
+    "p": 0.26345602870388074,
+    "r2_within": 0.18107374905663198,
+    "time_effects": true
+  },
+  "m4_parsimonious": {
+    "label": "Robustness: log lending on inverted WGI + parsimonious controls",
+    "dep": "log_lending",
+    "regressor": "wgi_cc_inv",
+    "controls": [
+      "gdp_growth",
+      "inflation"
+    ],
+    "n_obs": 292,
+    "n_entities": 14,
+    "coef": -0.24329839482390533,
+    "se": 0.14140421338906725,
+    "t": -1.7205880149729407,
+    "p": 0.08654826101733093,
+    "r2_within": 0.04554441840821788,
+    "time_effects": true
+  },
+  "m5_no_time_fe": {
+    "label": "Robustness: log lending on inverted WGI + full controls, country FE only",
+    "dep": "log_lending",
+    "regressor": "wgi_cc_inv",
+    "controls": [
+      "gdp_growth",
+      "inflation",
+      "current_account_pct_gdp",
+      "reserves_months_imports",
+      "trade_openness"
+    ],
+    "n_obs": 247,
+    "n_entities": 12,
+    "coef": 0.08181635869818071,
+    "se": 0.3662770680157964,
+    "t": 0.22337286672462997,
+    "p": 0.8234444512305903,
+    "r2_within": 0.10957094324841665,
+    "time_effects": false
+  },
+  "m6_risk_premium": {
+    "label": "WDI risk premium on inverted WGI + parsimonious controls",
+    "dep": "lending_risk_premium",
+    "regressor": "wgi_cc_inv",
+    "controls": [
+      "gdp_growth",
+      "inflation"
+    ],
+    "n_obs": 137,
+    "n_entities": 7,
+    "coef": -7.306379451726433,
+    "se": 1.8055368583637879,
+    "t": -4.046652062449511,
+    "p": 9.950865441377132e-05,
+    "r2_within": 0.06345614853771797,
+    "time_effects": true
+  }
+}

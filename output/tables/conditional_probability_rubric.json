@@ -1,0 +1,145 @@
+{
+  "factors": [
+    [
+      "electoral_turnover",
+      "Peaceful electoral turnover in last decade",
+      25
+    ],
+    [
+      "civil_society",
+      "Active civil-society anti-corruption coalition",
+      20
+    ],
+    [
+      "external_conditionality",
+      "External-actor governance conditionality",
+      15
+    ],
+    [
+      "failed_attempt_history",
+      "History of failed reform attempts (inverse: fewer is better)",
+      15
+    ],
+    [
+      "executive_constraints",
+      "Constraints on the executive (POLITY/V-Dem proxy)",
+      25
+    ]
+  ],
+  "scoring": "0=low, 1=medium, 2=high",
+  "formula": "midpoint = (weighted_score / max_possible) * 80 + 10; band = midpoint \u00b1 10",
+  "countries": [
+    {
+      "country": "Nigeria",
+      "electoral_turnover": 1,
+      "civil_society": 2,
+      "external_conditionality": 1,
+      "failed_attempt_history": 0,
+      "executive_constraints": 1,
+      "weighted_score": 105,
+      "max_possible": 200,
+      "midpoint_pct": 52.0,
+      "range_low": 42.0,
+      "range_high": 62.0,
+      "probability_band": "42-62%"
+    },
+    {
+      "country": "Ghana",
+      "electoral_turnover": 2,
+      "civil_society": 2,
+      "external_conditionality": 2,
+      "failed_attempt_history": 1,
+      "executive_constraints": 2,
+      "weighted_score": 185,
+      "max_possible": 200,
+      "midpoint_pct": 84.0,
+      "range_low": 74.0,
+      "range_high": 94.0,
+      "probability_band": "74-94%"
+    },
+    {
+      "country": "Senegal",
+      "electoral_turnover": 2,
+      "civil_society": 2,
+      "external_conditionality": 2,
+      "failed_attempt_history": 1,
+      "executive_constraints": 2,
+      "weighted_score": 185,
+      "max_possible": 200,
+      "midpoint_pct": 84.0,
+      "range_low": 74.0,
+      "range_high": 94.0,
+      "probability_band": "74-94%"
+    },
+    {
+      "country": "Zambia",
+      "electoral_turnover": 2,
+      "civil_society": 1,
+      "external_conditionality": 2,
+      "failed_attempt_history": 0,
+      "executive_constraints": 1,
+      "weighted_score": 125,
+      "max_possible": 200,
+      "midpoint_pct": 60.0,
+      "range_low": 50.0,
+      "range_high": 70.0,
+      "probability_band": "50-70%"
+    },
+    {
+      "country": "Zimbabwe",
+      "electoral_turnover": 0,
+      "civil_society": 0,
+      "external_conditionality": 0,
+      "failed_attempt_history": 0,
+      "executive_constraints": 0,
+      "weighted_score": 0,
+      "max_possible": 200,
+      "midpoint_pct": 10.0,
+      "range_low": 5,
+      "range_high": 20.0,
+      "probability_band": "5-20%"
+    },
+    {
+      "country": "Rwanda",
+      "electoral_turnover": 0,
+      "civil_society": 0,
+      "external_conditionality": 1,
+      "failed_attempt_history": 2,
+      "executive_constraints": 0,
+      "weighted_score": 45,
+      "max_possible": 200,
+      "midpoint_pct": 28.0,
+      "range_low": 18.0,
+      "range_high": 38.0,
+      "probability_band": "18-38%"
+    },
+    {
+      "country": "Botswana",
+      "electoral_turnover": 2,
+      "civil_society": 1,
+      "external_conditionality": 1,
+      "failed_attempt_history": 2,
+      "executive_constraints": 2,
+      "weighted_score": 165,
+      "max_possible": 200,
+      "midpoint_pct": 76.0,
+      "range_low": 66.0,
+      "range_high": 86.0,
+      "probability_band": "66-86%"
+    },
+    {
+      "country": "Mauritius",
+      "electoral_turnover": 2,
+      "civil_society": 1,
+      "external_conditionality": 2,
+      "failed_attempt_history": 1,
+      "executive_constraints": 2,
+      "weighted_score": 165,
+      "max_possible": 200,
+      "midpoint_pct": 76.0,
+      "range_low": 66.0,
+      "range_high": 86.0,
+      "probability_band": "66-86%"
+    }
+  ]
+}

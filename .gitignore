@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# Stata
+*.smcl
+*.log
+*.dta.bak
+
+# Data files (gitignored if large; document in data/README.md instead)
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.dta
+!data/raw/.gitkeep
+!data/raw/follow_through_dataset.csv
+!data/raw/follow_through_codebook.md
+
+# Processed data (depends on size; uncomment if processed files are large)
+# data/processed/*.csv
+# data/processed/*.dta
+
+# Output (regenerate from code)
+output/tables/*.tex
+output/tables/*.csv
+output/figures/*.png
+output/figures/*.pdf
+!output/tables/.gitkeep
+!output/figures/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Manuscript (lives outside the repo)
+*.docx
+*.doc
+~$*

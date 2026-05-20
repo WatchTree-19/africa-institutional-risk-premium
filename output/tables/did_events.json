@@ -1,0 +1,68 @@
+[
+  {
+    "event": "Indonesia KPK 2003",
+    "country": "IDN",
+    "year": 2003,
+    "n_obs": 136,
+    "coef_did": -0.21752560123720513,
+    "se_did": 0.059323885505365624,
+    "t_did": -3.666745685724357,
+    "p_did": 0.000377322258485302,
+    "coef_pct_change": -19.549299171857292
+  },
+  {
+    "event": "Nigeria EFCC 2003",
+    "country": "NGA",
+    "year": 2003,
+    "n_obs": 136,
+    "coef_did": 0.03670502285235436,
+    "se_did": 0.06278701117742447,
+    "t_did": 0.5845957971885739,
+    "p_did": 0.5599953086803331,
+    "coef_pct_change": 3.738697025192206
+  },
+  {
+    "event": "Brazil Lava Jato 2014",
+    "country": "BRA",
+    "year": 2014,
+    "n_obs": 147,
+    "coef_did": 0.24042400959415108,
+    "se_did": 0.05149597048970975,
+    "t_did": 4.668792670723511,
+    "p_did": 7.849499714662755e-06,
+    "coef_pct_change": 27.178828644906528
+  },
+  {
+    "event": "India Lokpal 2014",
+    "country": "IND",
+    "year": 2014,
+    "n_obs": 147,
+    "coef_did": 0.0895366590201479,
+    "se_did": 0.05479352103688957,
+    "t_did": 1.6340738343839525,
+    "p_did": 0.10482129755353453,
+    "coef_pct_change": 9.366742535366
+  },
+  {
+    "event": "Rwanda post-1994 (2003-treatment proxy)",
+    "country": "RWA",
+    "year": 2003,
+    "n_obs": 136,
+    "coef_did": 0.23020145387462398,
+    "se_did": 0.058882215830984616,
+    "t_did": 3.9095243041701035,
+    "p_did": 0.00015883625632584497,
+    "coef_pct_change": 25.885358531909475
+  },
+  {
+    "event": "South Korea consolidation (2003-proxy)",
+    "country": "KOR",
+    "year": 2003,
+    "n_obs": 136,
+    "coef_did": -0.17430902360708964,
+    "se_did": 0.06062259680876713,
+    "t_did": -2.875314367626716,
+    "p_did": 0.004832152925625222,
+    "coef_pct_change": -15.996273380171788
+  }
+]
